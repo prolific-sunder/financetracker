@@ -1,0 +1,78 @@
+* {
+    font-family: Georgia;
+    color: #141F0D;
+}
+body {
+    background-color: #fcfdfb;
+}
+
+.nav_styling {
+    padding: 1% 0% 1% 0%;
+    background-color: #141F0D !important;
+    border-bottom: 3px rgba(25, 135, 84, .9) solid;
+}
+
+.navbar-brand {
+    color: #F4F9F1;
+    pointer-events: none;
+}
+
+.nav-link {
+    color: #F4F9F1;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.activated {
+    color: #198754;
+    pointer-events: none;
+}
+
+.sign_in {
+    background-color: #F4F9F1;
+    width:75%;
+    margin-top:2%;
+    border-top:2px rgba(25, 135, 84, .5) solid;
+    border-left:2px rgba(25, 135, 84, .5) solid;
+    border-right:2px rgba(25, 135, 84, .5) solid;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 5% 25% 10% 25%;
+}
+
+.sign_in h1 {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 10%;
+}
+
+.sign_in .form-label {
+    font-size: large;
+    font-weight:500;
+}
+
+
+.btn-primary {
+    font-size:larger;
+    font-weight: 500;
+    background-color: #198754;
+    border: 2px rgba(25, 135, 84, .5) solid;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #0b5131;
+    border: 2px rgba(25, 135, 84, .5) solid;
+    font-size:larger;
+    font-weight: 500;
+}
+
+.sign_in_btn_container {
+    display: flex;
+    justify-content: center;
+    height: 10vh;    
+    padding: 10px 0px 10px 0px;
+}
