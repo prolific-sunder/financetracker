@@ -2,8 +2,16 @@
     font-family: "Century Gothic", sans-serif;
     color: #141F0D;
 }
-body {
+.sign-body {
     background-color: #fcfdfb;
+}
+
+.index-body {
+    background-color: #fcfdfb;
+}
+
+.navbar-toggler {
+    background: #0b5131;
 }
 
 .nav_styling {
@@ -30,6 +38,37 @@ body {
     pointer-events: none;
 }
 
+.left-informational {
+    float: left;
+    height: 40%;
+    width: 30%;
+    margin-left: 12%;
+    margin-top: 5%;
+    background: radial-gradient(circle at 100%, #141F0D, #141F0D 50%, #198754 75%, #141F0D 75%);
+    padding: 4% 4% 4% 4%;
+}
+
+.left-informational li {
+    color: #fcfdfb !important;
+}
+
+.left-informational p {
+    color: #F4F9F1 !important;
+}
+
+.finance-examples {
+    list-style-type: none; 
+    line-height: 40px;
+    padding-left:10%;
+}
+
+.left-titling {
+    float: right;
+    margin-top: 16%;
+    color: black;
+    margin-left: 10%;
+    margin-right: 12%;
+}
 .sign_in {
     background-color: #F4F9F1;
     width:75%;
